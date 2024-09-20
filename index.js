@@ -3,8 +3,8 @@ import express from "express";
 
 const app =express();
 
-app.get("/",(res,req)=>{
-    res.setEncoding("Server is runing");
+app.get("/",(req,res)=>{
+    res.send("Server is runing");
 })
 
 app.listen(4000,()=>{
