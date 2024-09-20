@@ -4,7 +4,7 @@ import express from "express";
 const app =express();
 
 app.get("/",(req,res)=>{
-    res.send("Server is runing");
+    res.send("Done");
 })
 
 app.listen(4000,()=>{
